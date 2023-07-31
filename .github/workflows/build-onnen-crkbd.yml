@@ -11,3 +11,4 @@ jobs:
       keyboard: '["crkbd"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
+      rules: '["OLED_ENABLE = yes"]'
