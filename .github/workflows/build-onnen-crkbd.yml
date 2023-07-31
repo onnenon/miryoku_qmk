@@ -6,9 +6,8 @@ on:
   - workflow_dispatch
 jobs:
   build:
-    uses: ./.github/workflows/main.yml
+    uses: ./.github/workflows/main-pi.yml
     with:
       keyboard: '["crkbd"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
-      rules: '["CONVERT_TO=elite_pi"]'
