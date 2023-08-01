@@ -11,7 +11,7 @@ jobs:
       keyboard: '["crkbd"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
-      ruiles: |
+      rules: |
         CONVERT_TO = elite_pi
         OLED_ENABLED = yes
         OLED_DRIVER = SSD1306
