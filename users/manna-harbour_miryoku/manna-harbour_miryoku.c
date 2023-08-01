@@ -541,7 +541,7 @@ bool oled_task_user(void) {
         render_status();  // Renders the current keyboard state (layer, lock, caps, scroll, etc)
     } else {
         render_logo_user();  // Renders a static logo
-        // oled_scroll_left();  // Turns on scrolling
+        oled_scroll_left();  // Turns on scrolling
     }
     return false;
 }
