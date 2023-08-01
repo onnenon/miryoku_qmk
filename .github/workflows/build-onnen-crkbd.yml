@@ -11,4 +11,4 @@ jobs:
       keyboard: '["crkbd"]'
       alphas: '["QWERTY"]'
       nav: '["vi"]'
-      rules: '["CONVERT_TO = elite_pi\nOLED_ENABLED = yes\nOLED_DRIVER = SSD1306\n"]'
+      rules: '[OLED_ENABLE = yes\nOLED_DRIVER = SSD1306\n"]'
